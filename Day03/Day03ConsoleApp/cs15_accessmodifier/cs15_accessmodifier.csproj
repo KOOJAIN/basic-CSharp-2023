@@ -4,7 +4,7 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{9D5AD306-A338-40D9-A3EF-DAA862DDCF54}</ProjectGuid>
+    <ProjectGuid>{D4FC5EC7-41EA-4FF7-B7D5-70DAEF9FD507}</ProjectGuid>
     <OutputType>Exe</OutputType>
     <RootNamespace>cs15_accessmodifier</RootNamespace>
     <AssemblyName>cs15_accessmodifier</AssemblyName>

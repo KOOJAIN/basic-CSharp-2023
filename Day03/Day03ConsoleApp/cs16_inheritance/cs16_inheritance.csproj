@@ -4,7 +4,7 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{FF9FF5DD-7C29-4915-862C-98B0B50537DC}</ProjectGuid>
+    <ProjectGuid>{7C2D614A-407A-4450-8332-2BC856C9A782}</ProjectGuid>
     <OutputType>Exe</OutputType>
     <RootNamespace>cs16_inheritance</RootNamespace>
     <AssemblyName>cs16_inheritance</AssemblyName>

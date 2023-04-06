@@ -6,18 +6,17 @@ using System.Threading.Tasks;
 
 namespace cs15_accessmodifier
 {
-    class WaterHeater   // class에 기본 접근한정자 internal
+    class waterheater // class에 기본 접근한정자 internal
     {
-        protected int temp;// protected는 외부에서 접근 불가능 그래서 내부에서 접근할 수 있는데, 상속받은 자식에서 접근 가능함. 그외는 불가능
+        public int temp;
 
-        public void SetTemp(int temp)       //public 아무데서나 접근가능
+        public void SetTemp(int temp)
         {
             if (temp < -5 || temp > 40)
             {
                 Console.WriteLine("범위 이탈");
                 return;
             }
-
             this.temp = temp;
         }
 
@@ -25,22 +24,20 @@ namespace cs15_accessmodifier
         {
             return this.temp;
         }
-
         internal void TurnOnHeater()
         {
             Console.WriteLine("보일러 켭니다 : {0}", temp);
         }
+        public waterheater() { }
     }
     internal class Program
     {
         static void Main(string[] args)
         {
-            WaterHeater boiler = new WaterHeater();
+            waterheater boiler = new waterheater();
             boiler.SetTemp(30);
-            Console.WriteLine(boiler.GetTemp());
+            Console.WriteLine(boiler.GetTemp()); // .했을 때 안 나오면 public이나 internal이 아니다
             boiler.TurnOnHeater();
-            //boiler.Temp = 39; 보호수준때문에 실행 불가능
         }
     }
 }
-

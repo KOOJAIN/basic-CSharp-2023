@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{3C048F63-5B62-4BC6-8355-897DECB60C57}</ProjectGuid>
+    <ProjectGuid>{97B410BE-C077-45D7-88B1-1AEB8045D3F6}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>cs13_class</RootNamespace>
-    <AssemblyName>cs13_class</AssemblyName>
+    <RootNamespace>cs14_class_copy</RootNamespace>
+    <AssemblyName>cs14_class_copy</AssemblyName>
     <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
