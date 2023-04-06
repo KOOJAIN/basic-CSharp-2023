@@ -12,3 +12,13 @@
 - c# 기본
     - 기본 문법
 - winApp
+
+## 3일차
+- c# 기본
+    - 클래스
+
+- Win App
+    - WinForm 컨트롤
+    - 리스트뷰, 데이터그리드 추가학습요망
+
+![윈폼학습] <img src="https://raw.githubusercontent.com/KOOJAIN/basic-CSharp-2023/main/images/cat.png" width="700">
