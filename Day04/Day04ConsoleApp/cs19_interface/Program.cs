@@ -6,9 +6,9 @@ using System.Threading.Tasks;
 
 namespace cs19_interface
 {
-    interface ILogger
+    interface ILogger       // 인터페이스는 약속이다! 약속 약속. 구현을 안한다! 안한다. 인터페이스는 변수 이런것들(속성)?은 다 가져와 쓸수있다. 
     {
-        void WriteLog(string log);
+        void WriteLog(string log);  // 메서드 함수의 구현부분이 없습니다. (;으로 끝을내고) 이런 걸 쓸거에요 약속을 합니다.
     }                                   // interface 는 구현! 구현!//// class 는 상속. interface 는 구현
 
     interface IFormattableLogger : ILogger
@@ -74,7 +74,7 @@ namespace cs19_interface
     {
         static void Main(string[] args)
         {
-            ILogger logger = new ConsolLogger();
+            ILogger logger = new ConsolLogger();        // 변수는 인터페이스를 지정하고 뒤에는 클레스를 ? ....
             logger.WriteLog("안녕~!!!");
 
             IFormattableLogger logger2 = new ConsoleLogger2();
