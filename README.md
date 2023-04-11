@@ -37,7 +37,29 @@
 - C# 기본
     - 인터페이스, 추상클래스
     - 프로퍼티 
+    - 배열, 컬랙션
 - Win App
     - WinForms 디자인 오류시 해결방법
     - Window 탐색기 만들기
 5일차 윈도우 탐색기 만들기 <img src="https://raw.githubusercontent.com/KOOJAIN/basic-CSharp-2023/main/images/explorer.png" width="700">
+
+## 6일차
+- C# 기본
+    -   컬렉션 
+    -   일반화(Generic) 프로그래밍
+    -   예외처리
+
+- Win App
+    -  탐색기 마무리
+        - 추가 개발 리스트
+        - 컨텍스트 메뉴(마우스 오른쪽 메뉴)
+        - 보호된 운영체제 폴더 숨기기
+        - 리스트뷰 폴더더블클릭시 하위폴더 표시
+    -  DB핸들링
+    -  BookRentalShop DB 사용 WinForms 앱개발
+    -  실습 예제
+
+## 7일차
+5일차 윈도우 탐색기 만들기 <img src="https://raw.githubusercontent.com/KOOJAIN/basic-CSharp-2023/main/images/6일차.png" width="700">
+    - BookRentalShop DB 사용 WinForms 앱개발
+    - 실습 예제
