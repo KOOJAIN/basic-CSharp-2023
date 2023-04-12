@@ -70,6 +70,7 @@
 	
 - Win App
 	- DB핸들링
+	<img src="https://raw.githubusercontent.com/KOOJAIN/basic-CSharp-2023/main/images/MDI핸들링.png" width="700">
 	- SDI vs MDI
 	
 	
