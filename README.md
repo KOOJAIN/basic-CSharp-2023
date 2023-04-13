@@ -74,5 +74,16 @@
 	- SDI vs MDI
 	
 	
-    - BookRentalShop DB 사용 WinForms 앱개발
+
+## 8일차
+- c# 기본
+    - 파일 핸들링
+    - 스레드 / 테스킈
+    - 가비지 컬렉션
+
+- Win App
+    - BookRentalShop DB 사용 WinForms 앱개발   
     - 실습 예제
+
+심플메모장
+<img src="https://raw.githubusercontent.com/KOOJAIN/basic-CSharp-2023/main/images/살려줘.png" width="700">
