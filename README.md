@@ -78,12 +78,30 @@
 ## 8일차
 - c# 기본
     - 파일 핸들링
-    - 스레드 / 테스킈
-    - 가비지 컬렉션
+    - 윈폼 메모장 (파일핸들링)
+    
 
 - Win App
-    - BookRentalShop DB 사용 WinForms 앱개발   
+    - BookRentalShop DB 사용 WinForms 앱개발  
+        - WinForms MDI 
+        - MySQL.Data Lib DB연동
+        
     - 실습 예제
 
 심플메모장
 <img src="https://raw.githubusercontent.com/KOOJAIN/basic-CSharp-2023/main/images/살려줘.png" width="700">
+
+## 9일차
+- C# 기본
+    - 스레드 / 테스킈
+    - 가비지 컬렉션
+
+- Win App
+    - BookRentalShop 만들기 계속
+<img src="https://raw.githubusercontent.com/KOOJAIN/basic-CSharp-2023/main/images/신규저장삭제.png" width="700">
+
+## 10일차
+-   Win App
+    - BookRentalShop
+
+- 코딩테스트

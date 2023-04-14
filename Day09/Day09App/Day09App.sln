@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.33516.290
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "wf14_winforms", "wf14_winforms\wf14_winforms.csproj", "{4A70B604-9DC6-47AF-9E2B-3075FDDD6980}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "wf13_bookrentalshop", "wf13_bookrentalshop\wf13_bookrentalshop.csproj", "{25793D5D-7EED-4E20-BEFF-92B98AB715FD}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4A70B604-9DC6-47AF-9E2B-3075FDDD6980}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4A70B604-9DC6-47AF-9E2B-3075FDDD6980}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4A70B604-9DC6-47AF-9E2B-3075FDDD6980}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4A70B604-9DC6-47AF-9E2B-3075FDDD6980}.Release|Any CPU.Build.0 = Release|Any CPU
+		{25793D5D-7EED-4E20-BEFF-92B98AB715FD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{25793D5D-7EED-4E20-BEFF-92B98AB715FD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{25793D5D-7EED-4E20-BEFF-92B98AB715FD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{25793D5D-7EED-4E20-BEFF-92B98AB715FD}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {0ABDBA60-F2A9-4DB4-B862-9CC554F152C4}
+	EndGlobalSection
+EndGlobal
