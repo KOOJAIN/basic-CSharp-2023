@@ -98,7 +98,7 @@
 
 - Win App
     - BookRentalShop 만들기 계속
-<img src="https://raw.githubusercontent.com/KOOJAIN/basic-CSharp-2023/main/images/신규저장삭제.png" width="700">
+<img src="https://raw.githubusercontent.com/KOOJAIN/basic-CSharp-2023/main/images/신규저장삭제1.png" width="700">
 
 ## 10일차
 -   Win App
