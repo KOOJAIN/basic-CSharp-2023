@@ -102,6 +102,7 @@
 
 ## 10일차
 -   Win App
-    - BookRentalShop
+    - BookRentalShop 만들기 마무리
 
 - 코딩테스트
+<img src="https://raw.githubusercontent.com/KOOJAIN/basic-CSharp-2023/main/images/윈폼.png" width="700">

@@ -7,7 +7,7 @@
     <ProjectGuid>{25793D5D-7EED-4E20-BEFF-92B98AB715FD}</ProjectGuid>
     <OutputType>WinExe</OutputType>
     <RootNamespace>wf13_bookrentalshop</RootNamespace>
-    <AssemblyName>wf13_bookrentalshop</AssemblyName>
+    <AssemblyName>`</AssemblyName>
     <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>

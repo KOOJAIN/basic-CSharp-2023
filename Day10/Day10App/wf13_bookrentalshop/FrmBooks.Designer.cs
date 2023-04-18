@@ -38,7 +38,7 @@
             this.BtnDel = new System.Windows.Forms.Button();
             this.BtnSave = new System.Windows.Forms.Button();
             this.BtnNew = new System.Windows.Forms.Button();
-            this.TxtName = new System.Windows.Forms.TextBox();
+            this.TxtNames = new System.Windows.Forms.TextBox();
             this.TxtISBN = new System.Windows.Forms.TextBox();
             this.TxtAuthor = new System.Windows.Forms.TextBox();
             this.label4 = new System.Windows.Forms.Label();
@@ -90,6 +90,7 @@
             this.DgvResult.RowTemplate.Height = 23;
             this.DgvResult.Size = new System.Drawing.Size(312, 506);
             this.DgvResult.TabIndex = 4;
+            this.DgvResult.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.DgvResult_CellClick);
             // 
             // groupBox1
             // 
@@ -102,7 +103,7 @@
             this.groupBox1.Controls.Add(this.BtnDel);
             this.groupBox1.Controls.Add(this.BtnSave);
             this.groupBox1.Controls.Add(this.BtnNew);
-            this.groupBox1.Controls.Add(this.TxtName);
+            this.groupBox1.Controls.Add(this.TxtNames);
             this.groupBox1.Controls.Add(this.TxtISBN);
             this.groupBox1.Controls.Add(this.TxtAuthor);
             this.groupBox1.Controls.Add(this.label4);
@@ -163,6 +164,7 @@
             this.BtnDel.TabIndex = 10;
             this.BtnDel.Text = "삭제";
             this.BtnDel.UseVisualStyleBackColor = true;
+            this.BtnDel.Click += new System.EventHandler(this.BtnDel_Click);
             // 
             // BtnSave
             // 
@@ -173,6 +175,7 @@
             this.BtnSave.TabIndex = 9;
             this.BtnSave.Text = "저장";
             this.BtnSave.UseVisualStyleBackColor = true;
+            this.BtnSave.Click += new System.EventHandler(this.BtnSave_Click);
             // 
             // BtnNew
             // 
@@ -183,15 +186,17 @@
             this.BtnNew.TabIndex = 8;
             this.BtnNew.Text = "신규";
             this.BtnNew.UseVisualStyleBackColor = true;
+            this.BtnNew.Click += new System.EventHandler(this.BtnNew_Click);
             // 
-            // TxtName
+            // TxtNames
             // 
-            this.TxtName.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            this.TxtNames.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.TxtName.Location = new System.Drawing.Point(79, 117);
-            this.TxtName.Name = "TxtName";
-            this.TxtName.Size = new System.Drawing.Size(198, 21);
-            this.TxtName.TabIndex = 4;
+            this.TxtNames.Location = new System.Drawing.Point(79, 117);
+            this.TxtNames.Name = "TxtNames";
+            this.TxtNames.Size = new System.Drawing.Size(198, 21);
+            this.TxtNames.TabIndex = 4;
+            this.TxtNames.TextChanged += new System.EventHandler(this.TxtNames_TextChanged);
             // 
             // TxtISBN
             // 
@@ -233,8 +238,10 @@
             // 
             this.TxtBookIdx.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
+            this.TxtBookIdx.BackColor = System.Drawing.Color.Gainsboro;
             this.TxtBookIdx.Location = new System.Drawing.Point(79, 30);
             this.TxtBookIdx.Name = "TxtBookIdx";
+            this.TxtBookIdx.ReadOnly = true;
             this.TxtBookIdx.Size = new System.Drawing.Size(198, 21);
             this.TxtBookIdx.TabIndex = 1;
             // 
@@ -277,11 +284,11 @@
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(29, 34);
+            this.label1.Location = new System.Drawing.Point(39, 35);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(40, 14);
+            this.label1.Size = new System.Drawing.Size(29, 14);
             this.label1.TabIndex = 1;
-            this.label1.Text = "책번호";
+            this.label1.Text = "번호";
             // 
             // FrmBooks
             // 
@@ -318,7 +325,7 @@
         private System.Windows.Forms.Button BtnDel;
         private System.Windows.Forms.Button BtnSave;
         private System.Windows.Forms.Button BtnNew;
-        private System.Windows.Forms.TextBox TxtName;
+        private System.Windows.Forms.TextBox TxtNames;
         private System.Windows.Forms.TextBox TxtISBN;
         private System.Windows.Forms.TextBox TxtAuthor;
         private System.Windows.Forms.Label label4;
